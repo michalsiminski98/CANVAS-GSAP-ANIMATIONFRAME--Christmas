@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgba(0, 81, 255, 0.281);
+}
+
+.pin {
+    width: 300px;
+    height: 300px;
+    margin: 25% 0 0 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: rgb(228, 0, 0);
+    box-shadow: inset 0 0 80px black, 0 0 40px black;
+    text-align: center;
+    line-height: 300px;
+}
+
+p {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 2.2rem;
+    color: white;
+}
