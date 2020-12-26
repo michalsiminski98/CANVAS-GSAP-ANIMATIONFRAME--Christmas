@@ -9,6 +9,7 @@ body {
 }
 
 .pin {
+    position: relative;
     width: 300px;
     height: 300px;
     margin: 25% 0 0 50%;
@@ -18,6 +19,17 @@ body {
     box-shadow: inset 0 0 80px black, 0 0 40px black;
     text-align: center;
     line-height: 300px;
+}
+
+.lightElement {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.021);
+    box-shadow: inset 0 0 40px rgba(255, 119, 119, 0.534), 0 0 20px rgb(255, 113, 113);
 }
 
 p {
