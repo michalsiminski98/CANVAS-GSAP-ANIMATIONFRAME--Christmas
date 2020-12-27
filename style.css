@@ -6,14 +6,15 @@
 body {
     overflow: hidden;
     background-color: rgba(0, 81, 255, 0.281);
+    height: 100vh;
 }
 
 .pin {
-    position: relative;
+    position: absolute;
     width: 300px;
     height: 300px;
-    margin: 25% 0 0 50%;
-    transform: translate(-50%, -50%);
+    margin: 50vh 0 0 50vw;
+    transform: translate(-50%, 0);
     border-radius: 50%;
     background-color: rgb(228, 0, 0);
     box-shadow: inset 0 0 80px black, 0 0 40px black;
@@ -36,4 +37,12 @@ p {
     font-family: 'Mountains of Christmas', cursive;
     font-size: 2.2rem;
     color: white;
+}
+
+.snow {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    border-radius: 50%;
 }
