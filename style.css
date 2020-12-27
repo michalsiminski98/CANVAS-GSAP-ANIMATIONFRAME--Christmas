@@ -5,7 +5,7 @@
 
 body {
     overflow: hidden;
-    background-color: rgba(0, 81, 255, 0.281);
+    background-image: linear-gradient(rgb(44, 73, 153), rgba(129, 18, 18, 0.637));
     height: 100vh;
 }
 
@@ -41,8 +41,40 @@ p {
 
 .snow {
     position: absolute;
-    width: 19px;
-    height: 19px;
+    width: 5px;
+    height: 5px;
     background-color: white;
     border-radius: 50%;
+}
+
+.snow:nth-child(2) {
+    margin-left: 300px;
+}
+
+.snow:nth-child(3) {
+    margin-left: 400px;
+}
+
+.snow:nth-child(4) {
+    margin-left: 500px;
+}
+
+.snow:nth-child(5) {
+    margin-left: 550px;
+}
+
+.snow:nth-child(6) {
+    margin-left: 850px;
+}
+
+.snow:nth-child(7) {
+    margin-left: 1090px;
+}
+
+.snow:nth-child(8) {
+    margin-left: 300px;
+}
+
+.snow:nth-child(9) {
+    margin-left: 1400px;
 }
