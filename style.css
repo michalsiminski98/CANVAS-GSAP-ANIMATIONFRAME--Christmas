@@ -15,6 +15,11 @@ body {
     height: 100vh;
 }
 
+#canvas {
+    position: absolute;
+    top: 0;
+}
+
 .pin {
     position: absolute;
     width: 300px;
