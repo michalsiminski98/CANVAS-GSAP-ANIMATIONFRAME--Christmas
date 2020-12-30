@@ -18,7 +18,7 @@ class Sky {
         let snows = [];
 
         for (let i = 0; i < count; i++) {
-            const radius = Math.random() * 3 + 2;
+            const radius = Math.random() + 1;
 
             snows.push({
                 x: Math.random() * this.width,
@@ -65,7 +65,7 @@ class Sky {
 
         this.ctx.translate(snow.x, snow.y);
         this.ctx.moveTo(0, 0 - snow.radius);
-        this.ctx.arc(100, 35, 1, 0, 2 * Math.PI);
+        this.ctx.arc(0, 0, snow.radius, 0, 2 * Math.PI);
 
         this.ctx.fill();
         this.ctx.restore();
@@ -80,7 +80,7 @@ class Sky {
 
     run() {
         this.initCanvas();
-        this.generateSnows(500);
+        this.generateSnows(1000);
         this.draw();
     }
 }
