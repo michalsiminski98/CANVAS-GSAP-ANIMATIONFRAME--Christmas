@@ -1,7 +1,3 @@
-# CANVAS-GSAP-ANIMATIONFRAME--Christmas
+### live server
 
-Ball was create by requestAnimationFrame.
-
-Little snows were create by canvas.
-
-8 big snows and santa sledge were create by GSAP.
+https://michalsiminski98.github.io/CANVAS-GSAP-ANIMATIONFRAME--Christmas/
